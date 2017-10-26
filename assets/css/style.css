@@ -127,7 +127,10 @@ ul {
     display: inline-block;
     overflow: hidden;
     width: 250px;
+}
 
+ul :hover {
+    background-color: #FFABBB;
 }
 
 li a{
@@ -192,7 +195,7 @@ input, [type=submit] {
     cursor: pointer;
 }
 
-input [type=submit] :hover {
+input, [type=submit]:hover {
     background-color: #B0D9FF;
 
 }

@@ -81,6 +81,11 @@ p.doublespace {
     padding: 10px;
 }
 
+.nighttext:hover {
+    background-color: #B0D9FF;
+    cursor: pointer;
+}
+
 .foodtext {
     position: absolute;
     top: 200px;
@@ -92,6 +97,11 @@ p.doublespace {
     background-color: #FFABBB;
     width: 230px;
     padding: 10px;
+}
+
+.foodtext:hover {
+    background-color: #B0D9FF;
+    cursor: pointer;
 }
 
 .adventuretext {
@@ -107,6 +117,11 @@ p.doublespace {
     padding: 10px;
 }
 
+.adventuretext:hover {
+    background-color: #B0D9FF;
+    cursor: pointer;
+}
+
 .traveltext {
     position: absolute;
     top: 475px;
@@ -120,6 +135,11 @@ p.doublespace {
     padding: 10px;
 }
 
+.traveltext:hover {
+    background-color: #B0D9FF;
+    cursor: pointer;
+}
+
 ul {
     list-style-type: none;
     float: right;
@@ -127,10 +147,6 @@ ul {
     display: inline-block;
     overflow: hidden;
     width: 250px;
-}
-
-ul :hover {
-    background-color: #FFABBB;
 }
 
 li a{
@@ -141,6 +157,10 @@ li a{
     font-family: arial;
     font-size: 15px;
     border-right: 1px solid rgb(218, 218, 218);
+}
+
+li a:hover {
+    background-color: #FFABBB;
 }
 
 .maincontent {
